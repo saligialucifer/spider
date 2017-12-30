@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/xywx"
+            android:title="校园文学" />
+        <item
+            android:id="@+id/xyfc"
+            android:title="校友风采" />
+        <item
+            android:id="@+id/xsky"
+            android:title="学术科研" />
+        <item
+            android:id="@+id/zsjy"
+            android:title="招生就业" />
+    </group>
+
+    <item android:title="交流">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:title="友好交♂流" />
+        </menu>
+    </item>
+
+</menu>

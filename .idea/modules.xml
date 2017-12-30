@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialog/dialog.iml" filepath="$PROJECT_DIR$/dialog/dialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homhomlib/homhomlib.iml" filepath="$PROJECT_DIR$/homhomlib/homhomlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-recyclerview/library-recyclerview.iml" filepath="$PROJECT_DIR$/library-recyclerview/library-recyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loadtoast/loadtoast.iml" filepath="$PROJECT_DIR$/loadtoast/loadtoast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider.iml" filepath="$PROJECT_DIR$/spider.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.gongxingheng.spider.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+    <com.example.gongxingheng.spider.Image3DSwitchView
+        android:id="@+id/image_switch_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50">
+
+    <com.example.gongxingheng.spider.image3DView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/image8" />
+
+    <com.example.gongxingheng.spider.image3DView
+        android:id="@+id/image2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/image10" />
+
+    <com.example.gongxingheng.spider.image3DView
+        android:id="@+id/image3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/image15" />
+        <com.example.gongxingheng.spider.image3DView
+            android:id="@+id/image4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@mipmap/image12" />
+        <com.example.gongxingheng.spider.image3DView
+            android:id="@+id/image5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@mipmap/image15" />
+
+    </com.example.gongxingheng.spider.Image3DSwitchView>
+    <TextView
+        android:id="@+id/startshow"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="17"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="欢迎使用东大新闻"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="bottom">
+        <TextView
+            android:id="@+id/version"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:typeface="serif"
+            android:gravity="right"
+            android:background="#ffffff"
+            android:text="Version:1.0" />
+    </LinearLayout>
+    <lib.homhomlib.design.SlidingLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/slidingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:sliding_mode="both"
+        android:layout_weight="9.5"
+        app:background_view="@layout/view_bg">
+        <com.twotoasters.jazzylistview.JazzyListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:overScrollMode="always" />
+
+    </lib.homhomlib.design.SlidingLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        android:layout_weight="0.5">
+        <SeekBar
+            android:id="@+id/sb"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:max="0"
+            android:visibility="gone"
+            android:progress="0"/>
+    </LinearLayout>
+
+</LinearLayout>
